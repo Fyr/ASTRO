@@ -1,0 +1,93 @@
+h1 { margin-bottom: 30px; text-transform: uppercase; font-size: 54px; }
+h2 { margin-bottom: 0px; }
+h2.mb { margin-bottom: 30px; } /* used only on Home page */
+h3 { margin-bottom: 10px; }
+a.picture:hover {
+    opacity: 0.5;
+}
+article a, .article a {
+    text-decoration: underline;
+}
+article a:hover, .article a:hover {
+    color: #7d7d7d;
+    text-decoration: none;
+}
+a.img-icon {
+    text-decoration: none;
+}
+a.img-icon span {
+    text-decoration: underline;
+}
+a.img-icon img {
+    display: inline-block;
+    width: 2em;
+    margin: 0 0.5em;
+    position: relative;
+    top: 0.5em;
+}
+a.img-icon:hover, a.img-icon:hover span {
+    color: #7d7d7d;
+    text-decoration: none;
+}
+a.img-icon:hover img {
+    opacity: 0.5;
+}
+.bigSlider .btn {
+    opacity: 0.5;
+}
+.bigSlider .btn:hover {
+    opacity: 0.8
+}
+.pagination { font-size: 1.2em; text-align: center; font-family: 'LandRoverWeb-Bold'; color: #7d7d7d; margin-top:20px; }
+.pagination span a, .pagination .current { border: 2px solid #cea900; display: inline-block; color: #cea900; text-decoration: none; padding: 0 5px;}
+.pagination span a:hover, .pagination .current { background: #7d7d7d; border: 2px solid #7d7d7d; color: #fff; }
+.pagination span.prev, .pagination span.next { color: #7d7d7d;}
+.pagination .prev { margin: 0 5px 0 15px; background: none; }
+.pagination .next { margin: 0 0 0 5px; background: none; }
+
+.pagination a.prev,  .pagination a.next { color: #cea900; text-decoration: underline; padding: 0; }
+.pagination a.prev:hover,  .pagination a.next:hover { background: none; text-decoration: none}
+
+.date { font-size: 1.2em; font-family: 'LandRoverWeb-Bold'; color: #7d7d7d; }
+
+img.align-left { margin: 5px 10px 5px 0px; }
+img.align-right { margin: 5px 0px 5px 10px; }
+
+.partners .item { display: block; }
+.partners a.item:hover { border: 1px solid #cea900; }
+
+.newsSection .news .more:hover:before {
+    left: 50%;
+    right: 50%;
+    transition: none;
+}
+.newsSection .news .more:hover { color: #7d7d7d; }
+
+.wrapper div.title a {
+    font-size: 1.3em !important;
+}
+.wrapper div.title a:hover {
+    text-decoration: underline;
+    color: #7d7d7d;
+}
+.section.grey {
+    background-color: #ecedee;
+}
+.section.grey h2 {
+    color: #7d7d7d;
+}
+.section .all {
+    text-align: center;
+    margin-top: 50px;
+}
+.recentProductsSection .products .title:hover {
+    text-decoration: underline;
+    color: #7d7d7d;
+}
+
+.cake-sql-log tr, .cake-sql-log td { border: 1px solid #000 !important; }
+
+@media (max-width: 900px) {
+    h1 { font-size: 36px; }
+    h3 { font-size: 24px; }
+}

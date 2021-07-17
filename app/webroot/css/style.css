@@ -1,0 +1,1209 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul { list-style: none; }
+
+a {
+    color: #4d5459;
+    text-decoration: none;
+    position: relative;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+html {
+    font-size: 14px;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "Avenir Book", sans-serif;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    -webkit-overflow-scrolling: touch;
+    outline: none;
+    color: #2b2726;
+    background: #f8f9f9;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.wrapper {
+	/* max-width: 1737px; */
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+
+.header {
+    background: rgba(0, 0, 0, 0.85);
+    height: 87px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2% 0 2%;
+    font-family: 'LandRoverWeb-Medium';
+    position: relative;
+    z-index: 2;
+}
+
+.header .logo {
+    display: block;
+}
+
+.header .menu {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.header .menu > li {
+    margin: 5px 15px 5px 15px;
+    position: relative;
+}
+
+.header .menu > li > a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.header .menu > li > a:before  {
+    content: '';
+    display: block;
+    height: 1px;
+    background: #4d5459;
+    position: absolute;
+    transition: all .3s ease-in-out;
+    left: 50%;
+    right: 50%;
+    bottom: -5px;
+}
+
+.header .menu > li > .arrow {
+    display: flex;
+    align-items: center;
+}
+
+.header .menu > li > .arrow:after {
+    content: '';
+    display: inline-block;
+    background-image: url('../img/sprite.png');
+    background-repeat: no-repeat;
+    background-position: -169px -1237px;
+    width: 5px;
+    height: 9px;
+    margin-left: 5px;
+}
+
+.header .menu > li > .arrow.down:after {
+    content: '';
+    display: inline-block;
+    background-image: url('../img/sprite.png');
+    background-repeat: no-repeat;
+    background-position: -202px -1239px;
+    width: 9px;
+    height: 5px;
+    margin-left: 5px;
+}
+
+
+
+.header .menu > li > a:hover:before, .header .menu > li.active > a:before {
+    left: 1px;
+    right: 1px;
+}
+
+.header .menu > li > ul {
+    background: #0b0b0b;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    top: 53px;
+    z-index: 9999;
+    font-family: 'Avenir';
+    font-size: 14px;
+    padding: 10px 0 10px 0;
+}
+
+.header .menu > li > ul > li {
+    padding: 0px 17px 0px 17px;
+}
+
+.header .menu > li > ul  a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.header .menu > li > ul  a:before {
+    content: '';
+    display: block;
+    height: 1px;
+    background: #cea900;
+    position: absolute;
+    transition: all .3s ease-in-out;
+    left: 50%;
+    right: 50%;
+    bottom: 0px;
+}
+
+.header .menu > li > ul  a:hover:before {
+    left:0;
+    right: 0;
+}
+
+
+.header .phone {
+    color: #cea900;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.header .search {
+    height: 100%;
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+}
+
+.header .search .searchText {
+    display: flex;
+    height: 100%;
+    background: #222222;
+    color: #b2b2b2;
+    text-transform: uppercase;
+    padding: 0 16px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.header .search .searchText:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-image: url('../img/sprite.png');
+    background-repeat: no-repeat;
+    background-position: -168px -1165px;
+}
+
+
+
+.header .search .searchBoxOuter {
+    display: none;
+}
+
+.header .search .searchBox {
+    background: #2d2d2d;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    padding: 15px;
+}
+
+.header .searchBox .inputBox {
+    display: flex;
+    background: #fff;
+}
+
+.header .searchBox .inputBox > input {
+    width: 300px;
+}
+
+.header .searchBox .inputBox.withSearch:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 21px;
+    height: 21px;
+    margin-right: 5px;
+    background-image: url('../img/sprite.png');
+    background-repeat: no-repeat;
+    background-position: -208px -1166px;
+    position: relative;
+    top: 7px;
+    left: 8px;
+}
+
+.header .searchBox .close {
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+
+.header .phoneIcon {
+
+}
+
+.hamburger-menu {
+    position: relative;
+}
+
+#menu__toggle {
+    opacity: 0;
+  }
+  
+#menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menuMobile {
+    visibility: visible;
+    left: 0;
+}
+
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0px;
+
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ecedee;
+    transition-duration: .25s;
+}
+
+.menu__btn > span {
+    width: 19px;
+}
+
+.menu__btn .textMenu {
+    margin-left: 25px;
+    color: #ecedee;
+    text-transform: uppercase;
+    font-family: 'LandRoverWeb-Medium';
+}
+
+
+.menu__btn > span::before {
+    content: '';
+    top: -5px;
+}
+
+.menu__btn > span::after {
+    content: '';
+    top: 5px;
+}
+  
+.menuMobile {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 50px;
+    left: -100%;
+    overflow: hidden;
+  
+    width: 300px;
+    height: calc( 100% - 50px);
+  
+    margin: 0;
+    list-style: none;
+    background-color: rgba(19,19,19, 0.9);
+    
+    padding: 10px 0 0 33px;
+    transition-duration: .25s;
+}
+
+
+.menuMobile > li {
+    margin: 7px 0 7px 0;
+    position: relative;
+}
+
+.menuMobile > li > a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.menuMobile > li > a:before  {
+    content: '';
+    display: block;
+    height: 1px;
+    background: #4d5459;
+    position: absolute;
+    transition: all .3s ease-in-out;
+    left: 50%;
+    right: 50%;
+    bottom: -2px;
+}
+
+
+.menuMobile > li > a:hover:before, .menuMobile > li.active > a:before {
+    left: 1px;
+    right: 1px;
+}
+
+.menuMobile > li > .arrow {
+    display: inline-flex;
+    align-items: center;
+}
+
+.menuMobile > li > .arrow:after {
+    content: '';
+    display: inline-block;
+    background-image: url('../img/sprite.png');
+    background-repeat: no-repeat;
+    background-position: -169px -1237px;
+    width: 5px;
+    height: 9px;
+    margin-left: 5px;
+}
+
+.menuMobile > li > .arrow.down:after {
+    content: '';
+    display: inline-block;
+    background-image: url('../img/sprite.png');
+    background-repeat: no-repeat;
+    background-position: -202px -1239px;
+    width: 9px;
+    height: 5px;
+    margin-left: 5px;
+}
+
+.menuMobile > li > ul {
+    background: #4c5358;
+    margin: 0 0 0 -33px;
+    font-size: 14px;
+    padding: 10px 0 10px 44px;
+}
+
+.menuMobile > li > ul a {
+    color: #fff;
+}
+
+.menuMobile > li > ul > li {
+    margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1439px) {
+    .header .logo { width: 190px; }
+    .header .phone { font-size:  18px; }
+    .header .search .searchText span { display: none; }
+    .header .search .searchText:before { margin-right: 0; }
+}
+
+@media (max-width: 900px) {
+    .header .phone { display: none; }
+    .header .search { display: none; }
+    .header .menu { display: none; }
+    .header { height: 50px; }
+    .header .logo { width: 134px; }
+    
+    .header { position: fixed; top: 0; left: 0; right: 0;}
+
+}
+
+@media (min-width: 901px) {
+    .hamburger-menu { display: none; }
+    .header .phoneIcon { display: none; }
+}
+
+
+
+.bigSlider {
+    margin-top: -87px;
+}
+
+.bigSlider .item {
+    height: 800px;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bigSlider .item .title {
+    color: #cea900;
+    font-family: 'LandRoverWeb-Bold';
+    font-size: 60px;
+    text-transform: uppercase;
+    max-width: 400px;
+    line-height: 65px;
+}
+
+.bigSlider .item .description {
+    max-width: 300px;
+    color: #d0d0d0;
+    margin-top: 30px;
+}
+
+.bigSlider .btn {
+    margin: 30px 0 0 0;
+}
+
+.bigSlider .owl-buttons .owl-prev {
+    left: 10px;
+    top: 50%;
+}
+
+
+.bigSlider .owl-buttons .owl-next {
+    right: 10px;
+    top: 50%;
+}
+
+.bigSlider .wrapper {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.bigSlider .back {
+    background:rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    display: inline-block;
+}
+
+.bigSlider  .owl-pagination {
+	position: absolute;
+	bottom: 60px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding: 0 5%;
+
+}
+
+@media (max-width: 900px) {
+    .bigSlider { margin-top: 50px; }
+    .bigSlider .back { padding:  5px; }
+    .bigSlider .item .title { font-size: 30px; line-height: 30px; }
+    .bigSlider .item .description { margin-top: 10px; }
+    .bigSlider .item { height: 300px; }
+    .bigSlider .owl-pagination { bottom: 5px; }
+}
+
+
+
+
+.btn {
+    border: 2px solid transparent;
+    display: inline-block;
+    background: #000000;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 23px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    background: #fff;
+    border-color: #000;
+    color: #000;
+}
+
+.btn.btn-blue {
+    background: #4d5459;
+}
+
+.btn.btn-blue:hover {
+    background: #565e63;
+    border-color: transparent;
+    color: #fff;
+}
+
+
+.btn1 {
+    display: inline-block;
+    background: #4d5459;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 9px 23px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    font-family: 'LandRoverWeb-Medium';
+}
+
+.btn1:hover {
+    background: #565e63;
+}
+
+.welcomeSection {
+    padding-top: 50px;
+    font-size: 14px;
+    background: #f8f9f9 url('../img/decor1.png') no-repeat left top;
+    background-size: 30%;
+}
+
+.welcomeSection p {
+    margin: 0 0 20px 0;
+}
+
+.welcomeSection .left {
+    float: left;
+    margin-right: 50px;
+}
+
+.welcomeSection .right {
+    float: right;
+    margin-left: 50px;
+}
+
+.welcomeSection .partition {
+    overflow: hidden;
+    padding-bottom: 70px;
+}
+
+.welcomeSection img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 1024px) {
+
+    .welcomeSection .right, .welcomeSection .left {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .welcomeSection .partition h3 { margin-top: 30px; }
+}
+
+.productsSection {
+    background: #ecedee;
+    padding: 70px 0 70px 0;
+    text-align: center;
+}
+
+.productsSection h2 {
+    color: #7d7d7d;
+}
+
+.productsSection > ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+}
+
+.productsSection > ul > li {
+    text-align: center;
+    margin: 45px 45px 0 45px;
+}
+
+.productsSection > ul > li a {
+    text-decoration: none;
+    font-family: 'LandRoverWeb-Bold';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #4d5459;
+    display: block;
+}
+
+.productsSection > ul > li .name {
+    position: relative;
+}
+
+.productsSection > ul > li > a > .name:before {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #cea900;
+    position: absolute;
+    transition: all .3s ease-in-out;
+    left: 50%;
+    right: 50%;
+    bottom: -5px;
+}
+
+.productsSection > ul > li > a:hover > .name:before {
+    left:0;
+    right: 0;
+}
+
+
+.productsSection > ul > li .icon {
+    margin-bottom: 15px;
+}
+
+.icon {
+    background-image: url('../img/sprite.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.icon.landbouw {  width: 135px; height: 133px; background-position: 0 0; display: block; }
+a:hover .icon.landbouw { background-position: -152px 0;  }
+
+.icon.liften {  width: 135px; height: 133px; background-position: 0 -192px; display: block; }
+a:hover .icon.liften{ background-position: -152px -192px;  }
+
+.icon.tuin {  width: 135px; height: 133px; background-position: 0 -384px; display: block; }
+a:hover .icon.tuin { background-position: -152px -384px;  }
+
+.icon.reiniging {  width: 135px; height: 133px; background-position: 0 -576px; display: block; }
+a:hover .icon.reiniging { background-position: -152px -576px;  }
+
+.icon.hoogwerkers {  width: 135px; height: 133px; background-position: 0 -768px; display: block; }
+a:hover .icon.hoogwerkers { background-position: -152px -768px;  }
+
+.icon.kranen {  width: 135px; height: 133px; background-position: 0 -960px; display: block; }
+a:hover .icon.kranen { background-position: -152px -960px;  }
+
+.icon.arrow-right {  width: 26px; height: 49px; background-position: -35px -1287px; }
+.icon.arrow-right:hover {  width: 26px; height: 49px; background-position: 0 -1287px; }
+.icon.arrow-left {  width: 26px; height: 49px; background-position: -122px -1287px; }
+.icon.arrow-left:hover {  width: 26px; height: 49px; background-position: -85px -1287px; }
+
+.icon.close { width: 13px; height: 13px; background-position: -255px -1171px; }
+
+.icon.arrow-right1 {  width: 26px; height: 49px; background-position: -35px -1287px; }
+.icon.arrow-right1:hover {  width: 26px; height: 49px; background-position: -185px -1287px; }
+.icon.arrow-left1 {  width: 26px; height: 49px; background-position: -122px -1287px; }
+.icon.arrow-left1:hover {  width: 26px; height: 49px; background-position: -222px -1287px; }
+
+.icon.phoneIcon {  width: 18px; height: 21px; background-position: -98px -1223px; }
+
+
+
+.categorySection {
+    background: #f8f9f9;
+    text-align: center;
+    padding: 70px 0 70px 0px;
+    background: url('../img/decor2.png') no-repeat right 100px;
+}
+
+.categorySection h2 {
+    /* max-width: 50%; */
+    margin: 0 auto;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5%;
+}
+
+.categories > li {
+    width: calc(33.33% - 5%);
+    position: relative;
+    height: 340px;
+    margin: 5% 0 0 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (max-width: 1220px) {
+    .categories {}
+    .categories > li { width: calc(50% - 5%); }   
+}
+
+@media (max-width: 800px) {
+    .categories {}
+    .categories > li { width: calc(100% - 5%); }   
+}
+
+.categories > li > .description {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    text-align: left;
+    padding: 15px 0 15px 46px;
+}
+
+.categories > li .title {
+    color: #f8f9f9;
+    text-transform: uppercase;
+    font-family: 'LandRoverWeb-Bold';
+    font-size: 18px;
+    margin-left: 0;
+}
+
+.categories > li .title:before {
+    content: '';
+    width: 7px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../img/sprite.png');
+    background-repeat: no-repeat;
+    background-position: 0 -1175px;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+}
+
+.categories > li .links {
+    display: none;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.categories > li:hover .links {
+    display: block;
+}
+
+.categories > li .links a {
+    color: #f8f9f9;
+    font-size: 14px;
+}
+
+.categories > li .links a:before {
+    content: '';
+    display: block;
+    height: 1px;
+    background: #cea900;
+    position: absolute;
+    transition: all .3s ease-in-out;
+    left: 50%;
+    right: 50%;
+    bottom: -2px;
+}
+
+.categories > li .links a:hover:before {
+    left:0;
+    right: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'LandRoverWeb-Bold';
+}
+
+h1 {
+    font-size: 48px;
+    color: #060606;
+    line-height: 1;
+    text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    color: #060606;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+h2 a, h3 a, h4 a {
+    text-decoration: none;
+}
+
+h2 a:hover, h3 a:hover, h4 a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 40px;
+    color: #060606;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+h4 {
+    font-size: 0.8rem;
+}
+
+h5 {
+    font-size: 0.7rem;
+}
+
+h6 {
+    font-size: 0.6rem;
+}
+
+.searchSection {
+    background: #ecedee;
+    padding: 70px 0 70px 0px;
+}
+
+.searchSection h2 {
+    color: #7d7d7d;
+}
+
+.jq-selectbox.type {
+    width: 300px;
+}
+
+.searchSection .name {
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'LandRoverWeb-Bold';
+    margin-right: 10px;
+    margin-left: 20px;
+    color: #7d7d7d;
+}
+
+.searchSection .name.first {
+    margin-left: 0;
+}
+
+
+.searchSection label.checkbox  {
+    margin-left: 20px;
+}
+
+label.checkbox {
+    cursor: pointer;
+    color: #7d7d7d;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.searchSection .btn {
+    margin-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.searchSection .formElements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.searchSection .formElements > div {
+    margin-top: 30px;
+}
+
+
+.newsSection {
+    background: #f8f9f9;
+    padding: 70px 0 70px 0px;
+}
+
+.newsSection h2 {
+    margin-bottom: 0px;
+}
+
+.newsSection .news {
+    display: flex;
+    margin-left: -5%;
+    flex-wrap: wrap;
+}
+
+.newsSection .news li {
+    width: calc(33.33% - 5%);
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+@media (max-width: 1220px) {
+    .newsSection .news li { width: calc(50% - 5%); }   
+}
+
+@media (max-width: 800px) {
+    .newsSection .news li { width: calc(100% - 5%); }   
+}
+
+
+.newsSection .news .picture {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 340px;
+    display: block;
+}
+
+.newsSection .news .title {
+    font-family: 'LandRoverWeb-Bold';
+    margin-top: 15px;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.newsSection .news .description {
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.newsSection .news .more {
+    display: inline-block;
+    margin-top: 15px;
+    font-family: 'LandRoverWeb-Medium';
+    text-transform: uppercase;
+    color: #000;
+    background-image: url('../img/sprite.png');
+    background-repeat: no-repeat;
+    background-position: 0px -1206px;
+    padding: 0 0 0 15px;
+}
+
+.newsSection .news .more:hover {
+    background-position: 0px -1240px;
+}
+
+
+.newsSection .news .more:before {
+    content: '';
+    display: block;
+    height: 1px;
+    background: #cea900;
+    position: absolute;
+    transition: all .3s ease-in-out;
+    left: 50%;
+    right: 50%;
+    bottom: -2px;
+}
+
+.newsSection .news .more:hover:before {
+    left:0;
+    right: 0;
+}
+
+.recentProductsSection {
+    background: #ecedee;
+    padding: 70px 0 70px 0px;
+}
+
+.recentProductsSection h2 {
+    color: #7d7d7d;
+    margin-bottom: 0;
+}
+
+.recentProductsSection .products {
+    display: flex;
+    margin-left: -5%;
+    flex-wrap: wrap;
+}
+
+.recentProductsSection .products > li {
+    width: calc(25% - 5%);
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+@media (max-width: 1280px) {
+    .recentProductsSection .products > li { width: calc(33.33% - 5%); }   
+}
+
+@media (max-width: 1024px) {
+    .recentProductsSection .products > li { width: calc(50% - 5%); }   
+}
+
+@media (max-width: 800px) {
+    .recentProductsSection .products > li { width: calc(100% - 5%); }   
+}
+
+
+.recentProductsSection .products .picture {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 255px;
+    display: block;
+}
+
+.recentProductsSection .products .title {
+    font-family: 'LandRoverWeb-Bold';
+    margin-top: 10px;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 25px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.recentProductsSection .products .title:hover {
+    text-decoration: underline;
+}
+
+.recentProductsSection .allProducts {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.partnersSection {
+    background-color: #f8f9f9;
+    background-image: url('../img/decor3.png'), url('../img/decor4.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right top;
+    padding: 60px 0 60px 0px;
+}
+
+.partners {
+    padding: 0 50px;
+}
+
+.partners .item {
+    height: 155px;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin: 0 20px;
+}
+
+
+
+.partners .owl-buttons .owl-prev {
+	left: 10px;
+	bottom: 50px;
+}
+
+.partners .owl-buttons .owl-next {
+	right: 10px;
+	bottom: 50px;
+}
+
+
+.footer {
+    background: #1b1b1b;
+}
+
+/* .footer:before {
+    content: '';
+    display: block;
+    background: url('../img/header_wood.png') no-repeat center center;
+    height: 42px;
+    flex: 1 1 100%; 
+} */
+
+.footer .inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 46px 0 42px 0;
+    flex-direction: row-reverse;
+}
+
+.footer .address {
+    color: #848484;
+    margin: 10px 0 0 20px;
+}
+
+.footer .phone {
+    color: #848484;
+    margin: 5px 0 0 20px;
+}
+
+
+.footer .bottomMenu {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0 0 30px;
+}
+
+.footer .bottomMenu li {
+    margin: 0 15px 10px 15px;
+    position: relative;
+    font-family: 'LandRoverWeb-Bold';
+    
+}
+
+.footer .bottomMenu > li > a {
+    color: #cea900;
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.footer .bottomMenu > li > a:before  {
+    content: '';
+    display: block;
+    height: 1px;
+    background: #cea900;
+    position: absolute;
+    transition: all .3s ease-in-out;
+    left: 50%;
+    right: 50%;
+    bottom: -5px;
+}
+
+.footer .bottomMenu > li:last-child {
+    margin-right: 0;
+}
+
+
+
+.footer .bottomMenu > li > a:hover:before, .footer .bottomMenu > li.active > a:before {
+    left: 1px;
+    right: 1px;
+}
+
+.footer .copyright {
+    color: #8a8a8a;
+    text-align: right;
+    margin: 40px 0 0 0;
+}
+
+.footer .copyright1 { display: none;}
+
+
+
+
+@media (max-width: 900px) {
+
+    h2 { font-size: 30px;}
+
+    .footer .inner { display: block; padding-top: 20px }
+
+    .footer .bottomMenu { margin:0; display: block; text-align: center; }
+    .footer .copyright { display: none; }
+    .footer .bottomMenu > li { margin-left: 0; margin-right: 0; }
+
+    .footer .bottomContent { text-align: center; margin-top: 30px; }
+    .footer .bottomLogo { width: 216px; }
+
+    .footer .copyright1 { display: block; color: #848484; margin-top: 20px;}
+}
