@@ -10,7 +10,7 @@ Cache::config('tasks', array(
 ));
 
 CakePlugin::loadAll();
-Configure::write('Config.language', 'eng');
+Configure::write('Config.language', 'rus');
 //CakePlugin::load('DebugKit');
 
 Configure::write('Dispatcher.filters', array(
@@ -34,7 +34,7 @@ Configure::write('Exception.renderer', 'AppExceptionRenderer');
 /* -= Custom settings =- */
 Configure::write('domain', array(
 	'url' => $_SERVER['SERVER_NAME'],
-	'title' => 'Kluytmans.loc'
+	'title' => 'AstroTarolog.loc'
 ));
 Configure::write('media', array(
 	'path' => WWW_ROOT.'files'.DS,

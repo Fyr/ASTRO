@@ -1,0 +1,551 @@
+msgid "Username"
+msgstr "Пользователь"
+
+msgid "Invalid username or password, try again"
+msgstr "Неправильное имя пользователя или пароль"
+
+msgid "Authorization"
+msgstr "Авторизация"
+
+msgid "Remember me"
+msgstr "Запомнить"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "Jan"
+msgstr "Янв"
+
+msgid "Feb"
+msgstr "Фев"
+
+msgid "Mar"
+msgstr "Мар"
+
+msgid "Apr"
+msgstr "Апр"
+
+msgid "May"
+msgstr "Май"
+
+msgid "Jun"
+msgstr "Июн"
+
+msgid "Jul"
+msgstr "Июл"
+
+msgid "Aug"
+msgstr "Авг"
+
+msgid "Sep"
+msgstr "Сен"
+
+msgid "Oct"
+msgstr "Окт"
+
+msgid "Nov"
+msgstr "Ноя"
+
+msgid "Dec"
+msgstr "Дек"
+
+msgid "Today"
+msgstr "Сегодня"
+
+msgid "Yesterday"
+msgstr "Вчера"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "You must log in to access this page"
+msgstr "Вы должны авторизоваться"
+
+msgid "Your session has been expired. Please, relogin to perform this action"
+msgstr "Авторизация истекла. Пож-ста, авторизуйтесь снова"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Apply"
+msgstr "Применить"
+
+msgid "Upload files..."
+msgstr "Загрузка файлов..."
+
+msgid "Edit"
+msgstr "Редактировать"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Uploaded"
+msgstr "Загружено"
+
+msgid "File name"
+msgstr "Имя файла"
+
+msgid "File size"
+msgstr "Обьем файла"
+
+msgid "Links"
+msgstr "Ссылки"
+
+msgid "Add record"
+msgstr "Добавить запись"
+
+msgid "Edit record"
+msgstr "Редактировать запись"
+
+msgid "Delete record"
+msgstr "Удалить запись"
+
+msgid "Dashboard"
+msgstr "Главная"
+
+msgid "User name"
+msgstr "Имя пользователя"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Remember me"
+msgstr "Запомнить"
+
+msgid "Login"
+msgstr "Вход"
+
+msgid "Logout"
+msgstr "Выход"
+
+msgid "Utils"
+msgstr "Утилиты"
+
+msgid "Generate static labels"
+msgstr "Сгенерировать стат.метки"
+
+msgid "Clean image cache"
+msgstr "Очистить кэш изображений"
+
+msgid "Processing query..."
+msgstr "Обработка запроса..."
+
+msgid "Sort Order"
+msgstr "Сортировка"
+
+msgid "Upload"
+msgstr "Загрузить"
+
+msgid "Select file"
+msgstr "Выберите файл"
+
+msgid "Slug"
+msgstr "Адрес"
+
+msgid "Sorting"
+msgstr "Сортировка"
+
+msgid "Created"
+msgstr "Создано"
+
+msgid "System"
+msgstr "Система"
+
+msgid "Updated"
+msgstr "Обновлено"
+
+msgid "Download"
+msgstr "Скачать"
+
+msgid "Featured"
+msgstr "Особое"
+
+msgid "Record has been successfully saved"
+msgstr "Запись успешно сохранена"
+
+msgid "Record has been successfully deleted"
+msgstr "Запись успешно удалена"
+
+msgid "No records found"
+msgstr "Записей не найдено"
+
+msgid "Actions"
+msgstr "Действия"
+
+msgid "Show filter settings"
+msgstr "Показать настройки фильтра"
+
+msgid "Delete checked records"
+msgstr "Удалить помеченные записи"
+
+msgid "General"
+msgstr "Общее"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Admin area"
+msgstr "Панель администратора"
+
+msgid "Static content"
+msgstr "Контент"
+
+msgid "Pages"
+msgstr "Страницы"
+
+msgid "Events"
+msgstr "События"
+
+msgid "Categories"
+msgstr "Категории"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Contacts"
+msgstr "Контакты"
+
+msgid "Articles"
+msgstr "Статьи"
+
+msgid "Static pages"
+msgstr "Статические страницы"
+
+msgid "Create article"
+msgstr "Создать статью"
+
+msgid "Create static page"
+msgstr "Создать стат.страницу"
+
+msgid "Create news article"
+msgstr "Создать новость"
+
+msgid "Edit article"
+msgstr "Редактировать статью"
+
+msgid "Edit static page"
+msgstr "Редактировать стат.страницу"
+
+msgid "Edit news article"
+msgstr "Редактировать новость"
+
+msgid "View article"
+msgstr "Просмотр статьи"
+
+msgid "View news article"
+msgstr "Просмотр новости"
+
+msgid "Title"
+msgstr "Название"
+
+msgid "Published"
+msgstr "Опубликовано"
+
+msgid "Media"
+msgstr "Медиа"
+
+msgid "Start admin page"
+msgstr "Стартовая страница админа"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Subcategory"
+msgstr "Подкатегория"
+
+msgid "Create category"
+msgstr "Создать категорию"
+
+msgid "Edit category"
+msgstr "Редактировать категорию"
+
+msgid "Showing {:start} to {:end} of {:count} records"
+msgstr "Показано {:start} - {:end} из {:count} записей"
+
+msgid "Label"
+msgstr "Метка"
+
+msgid "Settings have been successfully saved"
+msgstr "Настройки были успешно сохранены"
+
+msgid "Are you sure to delete this record?"
+msgstr "Вы уверены, что хотите удалить эту запись?"
+
+msgid "Are you sure to delete this record?\nAll child records will be deleted too"
+msgstr "Вы уверены, что хотите удалить эту запись?\nВсе дочерние записи будут также удалены"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Author"
+msgstr "Автор"
+
+msgid "Teaser"
+msgstr "Анонс"
+
+msgid "Preview"
+msgstr "Предпросмотр"
+
+msgid "Phone"
+msgstr "Тел."
+
+msgid "Photo"
+msgstr "Фото"
+
+msgid "Field is mandatory"
+msgstr "Поле обязательно для заполнения"
+
+msgid "Header"
+msgstr "Заголовок"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "E-mail of admin"
+msgstr "E-mail администратора"
+
+msgid "Users"
+msgstr "Пользователи"
+
+msgid "Error!"
+msgstr "Ошибка!"
+
+msgid "Confirm password"
+msgstr "Подтверждение пароля"
+
+msgid "User profiles"
+msgstr "Профили пользователей"
+
+msgid "Admin profile"
+msgstr "Профиль администратора"
+
+msgid "Create user"
+msgstr "Создать пользователя"
+
+msgid "Edit user"
+msgstr "Редактировать пользователя"
+
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+msgid "User area"
+msgstr "Личный кабинет"
+
+msgid "Site development"
+msgstr "Разработка сайта"
+
+msgid "Submit"
+msgstr "Отправить"
+
+msgid "Welcome, %s!"
+msgstr "Добро пожаловать, %s!"
+
+msgid "The name must be between 8 and 50 characters"
+msgstr "Имя должно быть не менее 8 и не более 50 символов"
+
+msgid "Active"
+msgstr "Активен"
+
+msgid "Total"
+msgstr "Всего"
+
+msgid "Filesize"
+msgstr "Размер файла"
+
+msgid "Format"
+msgstr "Формат"
+
+msgid "Company name"
+msgstr "Наименование учреждения"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Work time"
+msgstr "Время работы"
+
+msgid "Slider"
+msgstr "Слайдер"
+
+msgid "Collections"
+msgstr "Коллекции"
+
+msgid "Collection"
+msgstr "Коллекция"
+
+msgid "Museum items"
+msgstr "Музейные предметы"
+
+msgid "Subcategories"
+msgstr "Подкатегории"
+
+msgid "Create subcategory"
+msgstr "Создать подкатегорию"
+
+msgid "Create museum item"
+msgstr "Создать предмет"
+
+msgid "Edit subcategory"
+msgstr "Редактировать подкатегорию"
+
+msgid "Edit museum item"
+msgstr "Редактировать предмет"
+
+msgid "View product"
+msgstr "Просмотр предмета"
+
+msgid "Location"
+msgstr "Место хранения"
+
+msgid "ID Num"
+msgstr "Инв.номер"
+
+msgid "For home page"
+msgstr "На главную"
+
+msgid "Incorrect CSV-format for `%s`"
+msgstr "Некорректный CSV-формат для `%s`"
+
+msgid "Background tasks"
+msgstr "Фоновые задачи"
+
+msgid "Product CSV Parser"
+msgstr "Загрузка предметов из CSV"
+
+msgid "Product Parser"
+msgstr "Загрузка предметов"
+
+msgid "You must choose CSV file for parsing"
+msgstr "Вы должны выбрать CSV файл для загрузки"
+
+msgid "No photo for item `%s`: `%s`"
+msgstr "Не найдено фото для `%s`: `%s`"
+
+msgid "No 3D-photo for item `%s`: `%s`"
+msgstr "Не найдено 3D фото для `%s`: `%s`"
+
+msgid "Could not load media as image for item `%s`: `%s`"
+msgstr "Не могу загрузить файл как изображение для `%s`: `%s`"
+
+msgid "Incorrect image size for item `%s`: `%s` (%d x %d)"
+msgstr "Некорректные пропорции изображения для `%s`: `%s` (%d x %d)"
+
+msgid "Category not found (Line %d)"
+msgstr "Не могу найти категорию (стр. %d)"
+
+msgid "Subcategory not found (Line %d)"
+msgstr "Не могу найти подкатегорию (стр. %d)"
+
+msgid "Cannot save item `%s` (Line %d)"
+msgstr "Не могу сохранить предмет с номером `%s` (стр. %d)"
+
+msgid "Video not found for item `%s`"
+msgstr "Не найдено видео для предмета с номером `%s`"
+
+msgid "About the Museum"
+msgstr "О музее"
+
+msgid "History of police"
+msgstr "История милиции"
+
+msgid "History of militia"
+msgstr "История милиции"
+
+msgid "Visitors"
+msgstr "Посетителям"
+
+msgid "MUSEUM<span>of the Ministry of Internal Affairs</span><span>of the Republic of Belarus</span>"
+msgstr "МУЗЕЙ МВД <span>Республики Беларусь</span>"
+
+msgid "Ministry of Internal Affairs of the Republic of Belarus"
+msgstr "Министерство внутренних дел Республики Беларусь"
+
+msgid "search on site"
+msgstr "поиск по сайту"
+
+msgid "Interesting exhibits"
+msgstr "Интересные экспонаты"
+
+msgid "Choose category"
+msgstr "Выберите категорию"
+
+msgid "Search results"
+msgstr "Результаты поиска"
+
+msgid "Item type"
+msgstr "Вид предмета"
+
+msgid "Subject name"
+msgstr "Предметное имя"
+
+msgid "Author/Team of authors"
+msgstr "Автор/Коллектив авторов"
+
+msgid "Creation period"
+msgstr "Период создания"
+
+msgid "Creation place"
+msgstr "Место создания"
+
+msgid "Creation technology"
+msgstr "Материал, техника"
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "Identification number"
+msgstr "Номер по КП (НВ)"
+
+msgid "Too long name for `%s`: `%s`"
+msgstr "Слишком длинное имя для `%s`: `%s`"
+
+msgid "Processing was aborted by user"
+msgstr "Загрузка прервана пользователем"
+
+msgid "Search item"
+msgstr "Найти предмет"
+
+msgid "Find"
+msgstr "Найти"
+
+msgid "by item name..."
+msgstr "по названию предмета..."
+
+msgid "by item location..."
+msgstr "по месту хранения предмета..."
+
+msgid "by number..."
+msgstr "по номеру..."
+
+msgid "Show by"
+msgstr "Показывать по"
+
+msgid "records"
+msgstr "записей"
+
+msgid "Authors"
+msgstr "Автор/Коллектив авторов"
+
+msgid "Acceptance Act"
+msgstr "Акт приема-передачи"
+
+msgid "Protocol"
+msgstr "Протокол ФЗК"
+
+msgid "Menu"
+msgstr "Меню"
+
+msgid "Home"
+msgstr "Главная"
+
+msgid "Item name"
+msgstr "Предметное имя"

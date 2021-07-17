@@ -1,0 +1,371 @@
+msgid "Username"
+msgstr "Пользователь"
+
+msgid "Invalid username or password, try again"
+msgstr "Неправильное имя пользователя или пароль"
+
+msgid "Authorization"
+msgstr "Авторизация"
+
+msgid "Remember me"
+msgstr "Запомнить"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "Jan"
+msgstr "Янв"
+
+msgid "Feb"
+msgstr "Фев"
+
+msgid "Mar"
+msgstr "Мар"
+
+msgid "Apr"
+msgstr "Апр"
+
+msgid "May"
+msgstr "Май"
+
+msgid "Jun"
+msgstr "Июн"
+
+msgid "Jul"
+msgstr "Июл"
+
+msgid "Aug"
+msgstr "Авг"
+
+msgid "Sep"
+msgstr "Сен"
+
+msgid "Oct"
+msgstr "Окт"
+
+msgid "Nov"
+msgstr "Ноя"
+
+msgid "Dec"
+msgstr "Дек"
+
+msgid "Today"
+msgstr "Сегодня"
+
+msgid "Yesterday"
+msgstr "Вчера"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "You must log in to access this page"
+msgstr "Вы должны авторизоваться"
+
+msgid "Your session has been expired. Please, relogin to perform this action"
+msgstr "Авторизация истекла. Пож-ста, авторизуйтесь снова"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Apply"
+msgstr "Применить"
+
+msgid "Upload files..."
+msgstr "Загрузка файлов..."
+
+msgid "Edit"
+msgstr "Редактировать"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Uploaded"
+msgstr "Загружено"
+
+msgid "File name"
+msgstr "Имя файла"
+
+msgid "File size"
+msgstr "Обьем файла"
+
+msgid "Links"
+msgstr "Ссылки"
+
+msgid "Add record"
+msgstr "Добавить запись"
+
+msgid "Edit record"
+msgstr "Редактировать запись"
+
+msgid "Delete record"
+msgstr "Удалить запись"
+
+msgid "Dashboard"
+msgstr "Главная"
+
+msgid "User name"
+msgstr "Имя пользователя"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Remember me"
+msgstr "Запомнить"
+
+msgid "Login"
+msgstr "Вход"
+
+msgid "Logout"
+msgstr "Выход"
+
+msgid "Utils"
+msgstr "Утилиты"
+
+msgid "Generate static labels"
+msgstr "Сгенерировать стат.метки"
+
+msgid "Clean image cache"
+msgstr "Очистить кэш изображений"
+
+msgid "Processing query..."
+msgstr "Обработка запроса..."
+
+msgid "Sort Order"
+msgstr "Сортировка"
+
+msgid "Upload"
+msgstr "Загрузить"
+
+msgid "Select file"
+msgstr "Выберите файл"
+
+msgid "Slug"
+msgstr "Адрес"
+
+msgid "Sorting"
+msgstr "Сортировка"
+
+msgid "Created"
+msgstr "Создано"
+
+msgid "System"
+msgstr "Система"
+
+msgid "Updated"
+msgstr "Обновлено"
+
+msgid "Download"
+msgstr "Скачать"
+
+msgid "Featured"
+msgstr "Особое"
+
+msgid "Record has been successfully saved"
+msgstr "Запись успешно сохранена"
+
+msgid "Record has been successfully deleted"
+msgstr "Запись успешно удалена"
+
+msgid "No records found"
+msgstr "Записей не найдено"
+
+msgid "Actions"
+msgstr "Действия"
+
+msgid "Show filter settings"
+msgstr "Показать настройки фильтра"
+
+msgid "Delete checked records"
+msgstr "Удалить помеченные записи"
+
+msgid "General"
+msgstr "Общее"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Admin area"
+msgstr "Панель админа"
+
+msgid "Static content"
+msgstr "Контент"
+
+msgid "Pages"
+msgstr "Страницы"
+
+msgid "News"
+msgstr "Новости"
+
+msgid "Categories"
+msgstr "Категории"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Contacts"
+msgstr "Контакты"
+
+msgid "Articles"
+msgstr "Статьи"
+
+msgid "Static pages"
+msgstr "Статические страницы"
+
+msgid "Create article"
+msgstr "Создать статью"
+
+msgid "Create static page"
+msgstr "Создать стат.страницу"
+
+msgid "Create news article"
+msgstr "Создать новость"
+
+msgid "Edit article"
+msgstr "Редактировать статью"
+
+msgid "Edit static page"
+msgstr "Редактировать стат.страницу"
+
+msgid "Edit news article"
+msgstr "Редактировать новость"
+
+msgid "View article"
+msgstr "Просмотр статьи"
+
+msgid "View news article"
+msgstr "Просмотр новости"
+
+msgid "Title"
+msgstr "Название"
+
+msgid "Published"
+msgstr "Опубликовано"
+
+msgid "Media"
+msgstr "Медиа"
+
+msgid "Start admin page"
+msgstr "Стартовая страница админа"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Create category"
+msgstr "Создать категорию"
+
+msgid "Edit category"
+msgstr "Редактировать категорию"
+
+msgid "Showing {:start} to {:end} of {:count} records"
+msgstr "Показано {:start} - {:end} из {:count} записей"
+
+msgid "Label"
+msgstr "Метка"
+
+msgid "Settings have been successfully saved"
+msgstr "Настройки были успешно сохранены"
+
+msgid "Are you sure to delete this record?"
+msgstr "Вы уверены, что хотите удалить эту запись?"
+
+msgid "Are you sure to delete this record?\nAll child records will be deleted too"
+msgstr "Вы уверены, что хотите удалить эту запись?\nВсе дочерние записи будут также удалены"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Author"
+msgstr "Автор"
+
+msgid "Teaser"
+msgstr "Анонс"
+
+msgid "Preview"
+msgstr "Предпросмотр"
+
+msgid "Phone"
+msgstr "Тел."
+
+msgid "Field is mandatory"
+msgstr "Поле обязательно для заполнения"
+
+msgid "Header"
+msgstr "Заголовок"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "E-mail of admin"
+msgstr "E-mail администратора"
+
+msgid "Users"
+msgstr "Пользователи"
+
+msgid "Error!"
+msgstr "Ошибка!"
+
+msgid "Confirm password"
+msgstr "Подтверждение пароля"
+
+msgid "User profiles"
+msgstr "Профили пользователей"
+
+msgid "Admin profile"
+msgstr "Профиль администратора"
+
+msgid "Create user"
+msgstr "Создать пользователя"
+
+msgid "Edit user"
+msgstr "Редактировать пользователя"
+
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+msgid "User area"
+msgstr "Личный кабинет"
+
+msgid "Site development"
+msgstr "Разработка сайта"
+
+msgid "Submit"
+msgstr "Отправить"
+
+msgid "Welcome, %s!"
+msgstr "Добро пожаловать, %s!"
+
+msgid "The name must be between 8 and 50 characters"
+msgstr "Имя должно быть не менее 8 и не более 50 символов"
+
+msgid "Active"
+msgstr "Активен"
+
+msgid "Total"
+msgstr "Всего"
+
+msgid "Filesize"
+msgstr "Размер файла"
+
+msgid "Format"
+msgstr "Формат"
+
+msgid "Company name"
+msgstr "Наименование учреждения"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Work time"
+msgstr "Время работы"
+
+msgid "Slider"
+msgstr "Слайдер"
